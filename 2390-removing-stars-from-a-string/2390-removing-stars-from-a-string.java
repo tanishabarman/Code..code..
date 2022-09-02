@@ -7,7 +7,12 @@ class Solution {
              if(s.charAt(i)=='*'){
                  j--;
              }
-             else ch[j++] = s.charAt(i);
+             else
+             {
+                 
+                 ch[j] = s.charAt(i);
+                 j++;
+             }
         }
         StringBuilder str = new StringBuilder();
         
