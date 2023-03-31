@@ -56,7 +56,7 @@ class Solution
                 ans++;
                 
                 map.put(nums[in],in);
-                map.put(nums[i],i);    
+                //map.put(nums[i],i);    
             }
         }
         return ans;
